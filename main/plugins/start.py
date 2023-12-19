@@ -42,7 +42,7 @@ async def remt(event):
   
 @Invix.on(events.NewMessage(incoming=True, pattern=f"{S}"))
 async def start(event):
-    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n**👨🏻‍💻Owner**: @MRSATYAM01\n**support:** http://t.me/s_r_c_help_bot"
+    text = "👋 Hi, I am 'Save Restricted Content ' bot.\n\n✅ Send me the Link of any message of Restricted Channels to Clone it here.\nFor private channel's messages, send the Invite Link first.\n\n**👨🏻‍💻Owner**: @GUJARATI_HACKERBOT 🥷🏻\n**support:** http://t.me/@GPSC_HACKERbot"
     #await start_srb(event, text)
     '''
     await event.reply(text, 
@@ -56,6 +56,6 @@ async def start(event):
                       buttons=[
                               [Button.inline("SET THUMB.", data="set"),
                                Button.inline("REM THUMB.", data="rem")],
-                              [Button.url("⭐ MR SATYAM ⭐", url="https://telegram.dog/MRSATYAM01")]])
+                              [Button.url("⭐ GPSC HACKER  ⭐", url="https://telegram.dog/GPSC_HACKERBOT")]])
     
     
